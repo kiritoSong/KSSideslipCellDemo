@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003D1719225DDD2D00D3EF3B /* KSSideslipContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D1713225DDD2C00D3EF3B /* KSSideslipContainerView.m */; };
+		003D171A225DDD2D00D3EF3B /* KSSideslipCellProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D1715225DDD2C00D3EF3B /* KSSideslipCellProxy.m */; };
+		003D171B225DDD2D00D3EF3B /* KSSideslipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D1717225DDD2C00D3EF3B /* KSSideslipCell.m */; };
+		BF8C561C1D3497F30003550C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C561B1D3497F30003550C /* main.m */; };
+		BF8C561F1D3497F30003550C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C561E1D3497F30003550C /* AppDelegate.m */; };
+		BF8C56251D3497F30003550C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8C56231D3497F30003550C /* Main.storyboard */; };
+		BF8C56271D3497F30003550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C56261D3497F30003550C /* Assets.xcassets */; };
+		BF8C562A1D3497F30003550C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8C56281D3497F30003550C /* LaunchScreen.storyboard */; };
+		BF8C56421D34981B0003550C /* LYContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C56331D34981B0003550C /* LYContactCell.m */; };
+		BF8C56431D34981B0003550C /* LYContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C56351D34981B0003550C /* LYContactViewController.m */; };
+		BF8C56441D34981B0003550C /* LYFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C56381D34981B0003550C /* LYFavoriteCell.m */; };
+		BF8C56451D34981B0003550C /* LYFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C563A1D34981B0003550C /* LYFavoriteViewController.m */; };
+		BF8C56461D34981B0003550C /* LYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C563D1D34981B0003550C /* LYHomeCell.m */; };
+		BF8C56471D34981B0003550C /* LYHomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C563F1D34981B0003550C /* LYHomeCellModel.m */; };
+		BF8C56481D34981B0003550C /* LYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C56411D34981B0003550C /* LYHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003D1713225DDD2C00D3EF3B /* KSSideslipContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSideslipContainerView.m; sourceTree = "<group>"; };
+		003D1714225DDD2C00D3EF3B /* KSSideslipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSideslipCell.h; sourceTree = "<group>"; };
+		003D1715225DDD2C00D3EF3B /* KSSideslipCellProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSideslipCellProxy.m; sourceTree = "<group>"; };
+		003D1716225DDD2C00D3EF3B /* KSSideslipContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSideslipContainerView.h; sourceTree = "<group>"; };
+		003D1717225DDD2C00D3EF3B /* KSSideslipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSideslipCell.m; sourceTree = "<group>"; };
+		003D1718225DDD2C00D3EF3B /* KSSideslipCellProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSideslipCellProxy.h; sourceTree = "<group>"; };
+		BF8C56171D3497F30003550C /* LYSideslipCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSideslipCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8C561B1D3497F30003550C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8C561D1D3497F30003550C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8C561E1D3497F30003550C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8C56241D3497F30003550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8C56261D3497F30003550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8C56291D3497F30003550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8C562B1D3497F30003550C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8C56321D34981B0003550C /* LYContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYContactCell.h; sourceTree = "<group>"; };
+		BF8C56331D34981B0003550C /* LYContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYContactCell.m; sourceTree = "<group>"; };
+		BF8C56341D34981B0003550C /* LYContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYContactViewController.h; sourceTree = "<group>"; };
+		BF8C56351D34981B0003550C /* LYContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYContactViewController.m; sourceTree = "<group>"; };
+		BF8C56371D34981B0003550C /* LYFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFavoriteCell.h; sourceTree = "<group>"; };
+		BF8C56381D34981B0003550C /* LYFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFavoriteCell.m; sourceTree = "<group>"; };
+		BF8C56391D34981B0003550C /* LYFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFavoriteViewController.h; sourceTree = "<group>"; };
+		BF8C563A1D34981B0003550C /* LYFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFavoriteViewController.m; sourceTree = "<group>"; };
+		BF8C563C1D34981B0003550C /* LYHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomeCell.h; sourceTree = "<group>"; };
+		BF8C563D1D34981B0003550C /* LYHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomeCell.m; sourceTree = "<group>"; };
+		BF8C563E1D34981B0003550C /* LYHomeCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomeCellModel.h; sourceTree = "<group>"; };
+		BF8C563F1D34981B0003550C /* LYHomeCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomeCellModel.m; sourceTree = "<group>"; };
+		BF8C56401D34981B0003550C /* LYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomeViewController.h; sourceTree = "<group>"; };
+		BF8C56411D34981B0003550C /* LYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8C56141D3497F30003550C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003D1712225DDD2C00D3EF3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				003D1716225DDD2C00D3EF3B /* KSSideslipContainerView.h */,
+				003D1713225DDD2C00D3EF3B /* KSSideslipContainerView.m */,
+				003D1718225DDD2C00D3EF3B /* KSSideslipCellProxy.h */,
+				003D1715225DDD2C00D3EF3B /* KSSideslipCellProxy.m */,
+				003D1714225DDD2C00D3EF3B /* KSSideslipCell.h */,
+				003D1717225DDD2C00D3EF3B /* KSSideslipCell.m */,
+			);
+			name = Classes;
+			path = ../../KSSideslipCell/Classes;
+			sourceTree = "<group>";
+		};
+		BF8C560E1D3497F30003550C = {
+			isa = PBXGroup;
+			children = (
+				BF8C56191D3497F30003550C /* LYSideslipCellDemo */,
+				BF8C56181D3497F30003550C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8C56181D3497F30003550C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C56171D3497F30003550C /* LYSideslipCellDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8C56191D3497F30003550C /* LYSideslipCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				003D1712225DDD2C00D3EF3B /* Classes */,
+				BF8C56311D34981B0003550C /* Contact */,
+				BF8C56361D34981B0003550C /* Favorite */,
+				BF8C563B1D34981B0003550C /* Home */,
+				BF8C561D1D3497F30003550C /* AppDelegate.h */,
+				BF8C561E1D3497F30003550C /* AppDelegate.m */,
+				BF8C56231D3497F30003550C /* Main.storyboard */,
+				BF8C56261D3497F30003550C /* Assets.xcassets */,
+				BF8C56281D3497F30003550C /* LaunchScreen.storyboard */,
+				BF8C562B1D3497F30003550C /* Info.plist */,
+				BF8C561A1D3497F30003550C /* Supporting Files */,
+			);
+			path = LYSideslipCellDemo;
+			sourceTree = "<group>";
+		};
+		BF8C561A1D3497F30003550C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C561B1D3497F30003550C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF8C56311D34981B0003550C /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C56321D34981B0003550C /* LYContactCell.h */,
+				BF8C56331D34981B0003550C /* LYContactCell.m */,
+				BF8C56341D34981B0003550C /* LYContactViewController.h */,
+				BF8C56351D34981B0003550C /* LYContactViewController.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		BF8C56361D34981B0003550C /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C56371D34981B0003550C /* LYFavoriteCell.h */,
+				BF8C56381D34981B0003550C /* LYFavoriteCell.m */,
+				BF8C56391D34981B0003550C /* LYFavoriteViewController.h */,
+				BF8C563A1D34981B0003550C /* LYFavoriteViewController.m */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		BF8C563B1D34981B0003550C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C563C1D34981B0003550C /* LYHomeCell.h */,
+				BF8C563D1D34981B0003550C /* LYHomeCell.m */,
+				BF8C563E1D34981B0003550C /* LYHomeCellModel.h */,
+				BF8C563F1D34981B0003550C /* LYHomeCellModel.m */,
+				BF8C56401D34981B0003550C /* LYHomeViewController.h */,
+				BF8C56411D34981B0003550C /* LYHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8C56161D3497F30003550C /* LYSideslipCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8C562E1D3497F30003550C /* Build configuration list for PBXNativeTarget "LYSideslipCellDemo" */;
+			buildPhases = (
+				BF8C56131D3497F30003550C /* Sources */,
+				BF8C56141D3497F30003550C /* Frameworks */,
+				BF8C56151D3497F30003550C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSideslipCellDemo;
+			productName = LYSideslipCellDemo;
+			productReference = BF8C56171D3497F30003550C /* LYSideslipCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8C560F1D3497F30003550C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Louis;
+				TargetAttributes = {
+					BF8C56161D3497F30003550C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QWDT94UJRT;
+					};
+				};
+			};
+			buildConfigurationList = BF8C56121D3497F30003550C /* Build configuration list for PBXProject "LYSideslipCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8C560E1D3497F30003550C;
+			productRefGroup = BF8C56181D3497F30003550C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8C56161D3497F30003550C /* LYSideslipCellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8C56151D3497F30003550C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8C562A1D3497F30003550C /* LaunchScreen.storyboard in Resources */,
+				BF8C56271D3497F30003550C /* Assets.xcassets in Resources */,
+				BF8C56251D3497F30003550C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8C56131D3497F30003550C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8C56451D34981B0003550C /* LYFavoriteViewController.m in Sources */,
+				003D171A225DDD2D00D3EF3B /* KSSideslipCellProxy.m in Sources */,
+				003D1719225DDD2D00D3EF3B /* KSSideslipContainerView.m in Sources */,
+				BF8C56471D34981B0003550C /* LYHomeCellModel.m in Sources */,
+				BF8C56431D34981B0003550C /* LYContactViewController.m in Sources */,
+				BF8C56481D34981B0003550C /* LYHomeViewController.m in Sources */,
+				003D171B225DDD2D00D3EF3B /* KSSideslipCell.m in Sources */,
+				BF8C56441D34981B0003550C /* LYFavoriteCell.m in Sources */,
+				BF8C561F1D3497F30003550C /* AppDelegate.m in Sources */,
+				BF8C56461D34981B0003550C /* LYHomeCell.m in Sources */,
+				BF8C561C1D3497F30003550C /* main.m in Sources */,
+				BF8C56421D34981B0003550C /* LYContactCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF8C56231D3497F30003550C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8C56241D3497F30003550C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8C56281D3497F30003550C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8C56291D3497F30003550C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8C562C1D3497F30003550C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8C562D1D3497F30003550C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8C562F1D3497F30003550C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = LYSideslipCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.liuyi.LYSideslipCellDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF8C56301D3497F30003550C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = LYSideslipCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.liuyi.LYSideslipCellDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8C56121D3497F30003550C /* Build configuration list for PBXProject "LYSideslipCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8C562C1D3497F30003550C /* Debug */,
+				BF8C562D1D3497F30003550C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8C562E1D3497F30003550C /* Build configuration list for PBXNativeTarget "LYSideslipCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8C562F1D3497F30003550C /* Debug */,
+				BF8C56301D3497F30003550C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8C560F1D3497F30003550C /* Project object */;
+}
